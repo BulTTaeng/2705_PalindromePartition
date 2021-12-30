@@ -16,7 +16,7 @@ dynamic programming
 
 Let x1 ,x2 , x3 , .. xn is PalindromePartition.
 
-Then x 1 x , x 2 x , ... x n x will be PalindromePartition.
+Then x1 1 x1 , x2 2 x2 , ... xn k xn will be PalindromePartition.
 
 Thne dp[i/2] + dp[i/2 -1] + .... + 1 have the answer because we need right side and left side.
 
